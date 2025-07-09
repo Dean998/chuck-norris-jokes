@@ -230,30 +230,39 @@ async def get_available_mascots():
             {
                 "name": "Meow Norris",
                 "type": "cat",
-                "description": "Our office cat mascot - the original and most popular!",
+                "description": "Our office cat mascot - the original and most popular! 🐱",
+                "ascii": "  /\\_/\\  \n ( o.o ) \n  > ^ <  ",
+                "quote": "I don't always tell jokes, but when I do, they're purrfect.",
                 "example_endpoint": "/jokes/random?mascot=Meow%20Norris"
             },
             {
                 "name": "Woof Norris",
                 "type": "dog", 
-                "description": "Our office dog mascot - loyal and funny!",
+                "description": "Our office dog mascot - loyal and funny! 🐶",
+                "ascii": "  /|   /|  \n (  ._.) \n  o_(\")(\") ",
+                "quote": "Fetch this API, it's pawsome!",
                 "example_endpoint": "/jokes/woof/random"
             },
             {
                 "name": "Chirp Norris",
                 "type": "bird",
-                "description": "Our office bird mascot - small but mighty!",
+                "description": "Our office bird mascot - small but mighty! 🐦",
+                "ascii": "   (o>   \n \\\\_)    \n  \\_/    ",
+                "quote": "Tweet this - I'm faster than Chuck!",
                 "example_endpoint": "/jokes/random?mascot=Chirp%20Norris"
             },
             {
                 "name": "Oink Norris", 
                 "type": "pig",
-                "description": "Our office pig mascot - smart and strong!",
+                "description": "Our office pig mascot - smart and strong! 🐷",
+                "ascii": "   ^..^   \n  (oo)_   \n   WW     ",
+                "quote": "Some say I'm ham-fisted, but I prefer ham-awesome!",
                 "example_endpoint": "/jokes/random?mascot=Oink%20Norris"
             }
         ],
         "total": 4,
-        "note": "You can use any custom mascot name with the 'mascot' parameter!"
+        "note": "You can use any custom mascot name with the 'mascot' parameter!",
+        "fun_fact": "Each mascot has their own personality and ASCII art! 🎨"
     }
 
 if __name__ == "__main__":

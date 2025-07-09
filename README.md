@@ -1,6 +1,17 @@
 # 🐱🐶 Meow & Woof Norris Joke API
 
-A fun API that fetches Chuck Norris jokes and transforms them into jokes for our office mascots! Originally built for "Meow Norris" (our cat), now expanded to support "Woof Norris" (our dog) and other pet mascots. Built as part of the ManyPets engineering take-home assignment.
+```
+      /\_/\  
+     ( o.o ) 
+      > ^ <    "I don't always tell jokes, but when I do, they're purrfect."
+                                                    - Meow Norris
+```
+
+A fun API that fetches Chuck Norris jokes and transforms them into jokes for our office mascots! Originally built for "Meow Norris" (our cat), now expanded to support "Woof Norris" (our dog) and other pet mascots.
+
+```
+    🐶 Woof Norris says: "Fetch this API, it's pawsome!"
+```
 
 ## 🚀 Features
 
@@ -112,7 +123,7 @@ pytest test_main.py --cov=main --cov-report=html
 
 ## 📋 Example Responses
 
-### Random Joke
+### Random Meow Norris Joke
 ```json
 {
   "id": "abc123",
@@ -121,6 +132,39 @@ pytest test_main.py --cov=main --cov-report=html
   "categories": ["dev"],
   "created_at": "2020-01-05 13:42:19.576875",
   "updated_at": "2020-01-05 13:42:19.576875"
+}
+```
+
+### Random Woof Norris Joke
+```json
+{
+  "id": "def456", 
+  "joke": "Woof Norris doesn't fetch the ball. The ball fetches itself.",
+  "mascot": "Woof Norris",
+  "categories": ["animal"],
+  "created_at": "2020-01-05 13:42:19.576875",
+  "updated_at": "2020-01-05 13:42:19.576875"
+}
+```
+
+### Available Mascots
+```json
+{
+  "mascots": [
+    {
+      "name": "Meow Norris",
+      "type": "cat",
+      "description": "Our office cat mascot - the original and most popular! 🐱",
+      "ascii": "  /\\_/\\  \n ( o.o ) \n  > ^ <  "
+    },
+    {
+      "name": "Woof Norris", 
+      "type": "dog",
+      "description": "Our office dog mascot - loyal and funny! 🐶",
+      "ascii": "  /|   /|  \n (  ._.) \n  o_(\")(\") "
+    }
+  ],
+  "total": 4
 }
 ```
 
