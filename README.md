@@ -116,10 +116,6 @@ curl "http://localhost:8000/mascots"
 pytest test_main.py -v
 ```
 
-For test coverage:
-```bash
-pytest test_main.py --cov=main --cov-report=html
-```
 
 ## 📋 Example Responses
 
